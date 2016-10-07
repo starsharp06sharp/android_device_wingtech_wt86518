@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=rendang
-VENDOR=smartfren
+DEVICE=wt86518
+VENDOR=wingtech
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk

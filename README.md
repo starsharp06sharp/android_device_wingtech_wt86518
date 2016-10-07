@@ -1,5 +1,5 @@
-Device configuration for Smartfren G3 (rendang)
+Device configuration for Lenovo K30-T (rendang)
 ==============================
 This device tree supports:
 
-    rendang (G3 - Haier variant)
+    WT86518 (Lenovo K30-T/A6000)

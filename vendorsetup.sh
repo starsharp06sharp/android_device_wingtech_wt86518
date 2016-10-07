@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_rendang-userdebug
+add_lunch_combo cm_wt86518-userdebug

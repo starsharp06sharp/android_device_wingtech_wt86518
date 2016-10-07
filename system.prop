@@ -13,7 +13,7 @@ persist.sys.dpmd.nsrm=3
 # persist.dpm.loglevel=7825
 
 # Display
-ro.sf.lcd_density=240
+ro.sf.lcd_density=300
 
 # Radio
 persist.radio.multisim.config=dsds
@@ -21,13 +21,6 @@ ril.ecclist=112,911,110,122,119,120,000,118
 ril.ecclist1=112,911,110,122,119,120,000,118
 ril.subscription.types=RUIM
 persist.radio.rat_on=combine
-rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
-
-ro.cdma.force_plmn_lookup=true
-ro.cdma.home.operator.alpha=Smartfren
-ro.telephony.default_network=8,1
-telephony.lteOnCdmaDevice=1
-ro.ril.multi_rat_capable=true
 
 # set max background services
 ro.config.max_starting_bg=8

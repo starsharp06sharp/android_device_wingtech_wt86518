@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/smartfren/rendang/full_rendang.mk)
+$(call inherit-product, device/smartfren/rendang/full_wt86518.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_rendang
-BOARD_VENDOR := smartfren
-PRODUCT_DEVICE := rendang
+PRODUCT_NAME := cm_wt86518
+BOARD_VENDOR := wingtech
+PRODUCT_DEVICE := K30-T
 
-PRODUCT_GMS_CLIENTID_BASE := android-haier
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-TARGET_VENDOR_PRODUCT_NAME := G36C1H
-TARGET_VENDOR_DEVICE_NAME := G36C1H
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=G36C1H PRODUCT_NAME=G36C1H
+TARGET_VENDOR_PRODUCT_NAME := wt86518
+TARGET_VENDOR_DEVICE_NAME := wingtech
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=wt86518 PRODUCT_NAME=wt86518

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/smartfren/rendang/rendang-vendor.mk)
+$(call inherit-product-if-exists, vendor/wingtech/wt86518/wt86518-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay

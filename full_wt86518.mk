@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from rendang device
-$(call inherit-product, device/smartfren/rendang/device.mk)
+$(call inherit-product, device/wingtech/wt86518/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := wt86518

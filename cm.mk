@@ -19,7 +19,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_NAME := cm_wt86518
 BOARD_VENDOR := wingtech
-PRODUCT_DEVICE := K30-T
+PRODUCT_DEVICE := wt86518
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 

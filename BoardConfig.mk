@@ -16,7 +16,7 @@
 FORCE_32_BIT := true
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
-DEVICE_PATH := device/smartfren/rendang
+DEVICE_PATH := device/wingtech/wt86518
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Bootloader
@@ -84,4 +84,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/smartfren/rendang/BoardConfigVendor.mk
+-include vendor/wingtech/wt86518/BoardConfigVendor.mk

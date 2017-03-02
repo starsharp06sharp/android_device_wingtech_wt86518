@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/smartfren/rendang/full_wt86518.mk)
+$(call inherit-product, device/wingtech/wt86518/full_wt86518.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)

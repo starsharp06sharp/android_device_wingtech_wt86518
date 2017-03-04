@@ -15,8 +15,8 @@
    "repository": "android_device_qcom_common",
    "target_path": "device/qcom/common"
   },{
-    "repository": "android_kernel_lenovo_msm8916",
-    "target_path": "kernel/cyanogen/msm8916",
-    "branch": "cm-13.0-amss-1.0.2"
+    "repository": "android_kernel_wingtech_msm8916",
+    "target_path": "kernel/wingtech/msm8916",
+    "branch": "cm-13.0"
   }
 ]
